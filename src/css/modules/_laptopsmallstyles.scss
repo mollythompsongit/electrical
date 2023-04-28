@@ -1,0 +1,470 @@
+@media screen and (min-width: 1024px) {
+
+    // NAV BAR ---------------------------
+    #topnav {
+        align-items: center;
+        height: 95px;
+    }
+
+    .search-icon-mobile {
+        width: 0px;
+        height: 0px;
+    }
+
+    #mobilelogo {
+        width: 0px;
+        height: 0px;
+    }
+
+    .show-mobile-menu-button {
+        display: none;
+    }
+
+    #menu-container {
+        display: none;
+    }
+
+    .search-mobile {
+        width: 0px;
+        height: 0px;
+    }
+
+    #menu {
+        visibility: visible;
+        width: 95%;
+        height: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 51px;
+    }
+
+
+    #menu li {
+        list-style-type: none;
+        font-size: 20px;
+        color: black;
+        width: 11%;
+        padding: 5px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    #menu a {
+        text-decoration: none;
+    }
+
+    #menu a:visited {
+        text-decoration: none;
+        color: black;
+    }
+
+    #logo {
+        width: 18%;
+        margin-top: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .desktop-logo {
+        width: 100%;
+    }
+
+    .search-icon {
+        color: $brightred  !important;
+        font-size: 22px;
+    }
+
+    .nav-drop-down {
+        position: absolute;
+        margin-top: 125px;
+    }
+
+    // HOME PAGE -----------------------
+
+
+
+    .search-icon:hover {
+        cursor: pointer !important;
+    }
+
+    .desktop-search-icon:hover {
+        cursor: pointer !important;
+    }
+
+    .hero-home-container {
+        height: 545px;
+        margin-top: -195px;
+    }
+
+    .home-title-container-title {
+        font-size: 30px;
+    }
+
+    .home-title-container-text {
+        font-size: 19px;
+        padding: 20px;
+    }
+
+    .body-container-text {
+        font-size: 19px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .our-services-title {
+        width: 19%;
+        font-size: 25px;
+    }
+
+    .hero-services-container {
+        width: 95%;
+    }
+
+    .service-image1,
+    .service-image2,
+    .service-image3 {
+        width: 90%;
+        height: 185px;
+        margin: 12px;
+        background-size: cover;
+    }
+
+    .service-image-text-overlay1,
+    .service-image-text-overlay2,
+    .service-image-text-overlay3 {
+        bottom: 0px;
+        padding-top: 5px;
+        font-size: 15px;
+    }
+
+    .choose-title {
+        margin-top: 20px;
+        width: 52%;
+        font-size: 25px;
+    }
+
+    .choose-grey-box-container {
+        width: 99.5%;
+        display: flex;
+        margin-left: -10px;
+    }
+
+    .icon-box {
+        width: 20%;
+    }
+
+    .choose-grey-box-text {
+        font-size: 16px;
+        width: 70%;
+        padding-top: 25px;
+        padding-left: 15px;
+    }
+
+    .choose-grey-box-text-home {
+        font-size: 18px;
+        width: 77%;
+    }
+
+    .contact-container-text {
+        font-size: 18px;
+    }
+
+    .contactus-button {
+        margin-left: -260px;
+        position: absolute;
+        margin-top: 30px;
+        width: 200px;
+        font-size: 16px;
+    }
+
+    .contactus-button:hover {
+        cursor: pointer !important;
+        background-color: rgba(181, 0, 7, 0.3) !important;
+    }
+
+    .footer-text-box {
+        font-size: 16px;
+    }
+
+    .footer-icon-box {
+        font-size: 50px;
+    }
+
+    .footer-icon:hover {
+        cursor: pointer !important;
+    }
+
+    .footer-box {
+        padding-bottom: 0px;
+        display: flex;
+        height: 190px;
+    }
+
+    .footer-text-container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .footer-text-box {
+        width: 27%;
+        display: block;
+        padding-left: 30%;
+        padding-right: 10%;
+    }
+
+    .footer-icon-box {
+        font-size: 45px;
+        margin-top: 75px;
+        width: 45%;
+    }
+
+
+    .footer-copyright-banner-container {
+        background-color: grey;
+        width: 100%;
+        height: auto;
+    }
+
+    .copyright-text {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 9px;
+        text-align: center;
+        padding: 8px;
+    }
+
+    // CONTACT PAGE
+    .contact-title {
+        width: 51%;
+        font-size: 30px;
+        padding-top: 150px;
+        padding-bottom: 20px;
+    }
+
+    .contact-box-container {
+        .icon-box {
+            width: 100%;
+            text-align: center;
+        }
+
+        .grey-box-icon {
+            font-size: 65px;
+            padding-top: 20px;
+            margin-right: 0px;
+            padding-left: 10px !important;
+        }
+    }
+
+    .contact-box {
+        .choose-grey-box-text {
+            width: 88% !important;
+            font-size: 18px;
+            padding-top: 35px;
+        }
+    }
+
+    #form-container {
+        width: 80%;
+        padding-left: 55px;
+    }
+
+    #form-container input {
+        width: 85%;
+    }
+
+    #form-container label {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .form-submit-button {
+        font-size: 18px;
+    }
+
+    // ABOUT US PAGE
+    .about-title {
+        width: 47%;
+        font-size: 30px;
+        padding-top: 150px;
+        padding-bottom: 20px;
+    }
+
+    .about-body-container {
+        padding: 45px;
+        font-size: 20px;
+    }
+
+    .about-image-box {
+        height: 180px;
+        width: 30%;
+    }
+
+    .quality-title {
+        width: 38%;
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .quality-text {
+        font-size: 22px;
+    }
+
+    .checkbox-text-container {
+        width: 90%;
+        height: auto;
+        padding-bottom: 50px;
+        margin: auto;
+        display: flex;
+        padding-top: 20px;
+    }
+
+    .checkbox-text1,
+    .checkbox-text2,
+    .checkbox-text3,
+    .checkbox-text4 {
+        width: 19%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .tick {
+        font-size: 22px;
+    }
+
+    // FAQ PAGE
+    .faq-title {
+        width: 48%;
+        font-size: 30px;
+        padding-top: 150px;
+        padding-bottom: 20px;
+    }
+
+    .faq-box {
+        width: 85%;
+        margin-top: 35px;
+    }
+
+    .faq-container {
+        padding-top: 25px;
+        padding-bottom: 55px;
+    }
+
+    .faq-title-content {
+        font-size: 24px;
+        padding: 25px;
+        padding-bottom: 0px;
+    }
+
+    .faq-content {
+        font-size: 22px;
+        padding: 25px;
+    }
+
+    // SHOP PAGE 
+    .shop-title {
+        width: 31%;
+        font-size: 30px;
+        padding-top: 150px;
+        padding-bottom: 20px;
+    }
+
+    .shop-item-title {
+        font-size: 30px;
+    }
+
+    .shop-item-box {
+        width: 26%;
+        margin-bottom: 35px;
+    }
+
+
+    #back-button-shop:hover {
+        cursor: pointer;
+        color: $brightred;
+    }
+
+    .shop-item-image-clicked {
+        width: 42%;
+    }
+
+    .shop-item-description-clicked {
+        width: 94%;
+        padding-top: 93px;
+        padding-bottom: 92px;
+    }
+
+    .shop-item-price-clicked {
+        padding-top: 41px;
+        padding-bottom: 41px;
+    }
+
+    .shop-item-price-clicked-text {
+        font-size: 23px;
+    }
+
+    // SERVICES PAGE 
+    .service-title {
+        width: 22%;
+        font-size: 30px;
+        padding-top: 150px;
+        padding-bottom: 20px;
+    }
+
+    .service-page-subheading {
+        font-size: 19px;
+        padding: 25px;
+        text-align: center;
+    }
+
+    .services-page-image-container {
+        margin: 25px;
+    }
+
+    .service-page-image {
+        height: 210px;
+    }
+
+    .service-page-title {
+        font-size: 20px;
+    }
+
+    .more-button {
+        font-size: 28px;
+    }
+
+    .service-boxes-container {
+        padding-bottom: 30px;
+    }
+
+    .service-clicked-title {
+        width: 53%;
+        font-size: 30px;
+        padding-top: 150px;
+        padding-bottom: 20px;
+    }
+
+    .service-content {
+        font-size: 17px;
+        padding: 35px;
+    }
+
+    .service-content img {
+        width: 110%;
+        height: auto;
+        margin-top: 50px;
+        margin-left: -35px;
+        margin-right: auto;
+        display: block;
+    }
+
+    // SHOP MODAL
+    .modal-title {
+        font-size: 35px;
+    }
+
+    .modal-content {
+        width: 88%;
+        padding: 65px;
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,443 @@
+@media screen and (min-width: 1440px) {
+
+    // NAV BAR ---------------------------
+    #topnav {
+        align-items: center;
+        height: 130px;
+    }
+
+    #menu li {
+        font-size: 25px;
+        width: 12%;
+        padding: 7px;
+    }
+
+    #logo {
+        margin-top: -25px;
+        padding-left: 12px;
+        padding-right: 25px;
+    }
+
+    .search-icon {
+        font-size: 30px;
+    }
+
+    .nav-drop-down {
+        margin-top: 165px;
+    }
+
+    // HOME PAGE -----------------------
+    .search-icon:hover {
+        cursor: pointer !important;
+    }
+
+    .desktop-search-icon:hover {
+        cursor: pointer !important;
+    }
+
+    .hero-home-container {
+        height: 765px;
+        margin-top: -285px;
+    }
+
+    .home-title-container {
+        margin-top: 70px;
+    }
+
+    .home-title-container-title {
+        font-size: 40px;
+    }
+
+    .home-title-container-text {
+        font-size: 24px;
+    }
+
+    .our-services-title {
+        width: 16%;
+        font-size: 30px;
+        padding-top: 40px;
+    }
+
+    .body-container-text {
+        font-size: 25px;
+    }
+
+    .hero-services-container {
+        width: 97%;
+    }
+
+    .service-image1 {
+        width: 90%;
+        height: 265px;
+    }
+
+    .service-image2 {
+        width: 90%;
+        height: 265px;
+    }
+
+    .service-image3 {
+        width: 90%;
+        height: 265px;
+    }
+
+    .service-image-text-overlay1,
+    .service-image-text-overlay2,
+    .service-image-text-overlay3 {
+        bottom: 0px;
+        padding-top: 10px;
+        font-size: 21px;
+        padding-bottom: 10px;
+    }
+
+    .choose-title {
+        margin-top: 40px;
+        width: 44%;
+        font-size: 30px;
+    }
+
+    .choose-grey-box-container {
+        width: 102.5%;
+        display: flex;
+        margin-left: -18px;
+    }
+
+    .choose-grey-box {
+        width: 31%;
+        height: 115px;
+    }
+
+    .grey-box-icon {
+        font-size: 65px;
+    }
+
+    .choose-grey-box-text {
+        font-size: 23px;
+    }
+
+    .choose-grey-box-text-home {
+        font-size: 25px;
+        width: 77%;
+        padding-top: 20px;
+    }
+
+    .contact-container-text {
+        font-size: 24px;
+        padding-left: 80px;
+    }
+
+    .contactus-button {
+        margin-left: -380px;
+        position: absolute;
+        margin-top: 30px;
+        width: 265px;
+        font-size: 24px;
+        height: 45px;
+    }
+
+    .contactus-button:hover {
+        cursor: pointer !important;
+        background-color: rgba(181, 0, 7, 0.3) !important;
+    }
+
+    .footer-text-box {
+        font-size: 20px;
+    }
+
+    .footer-icon-box {
+        font-size: 60px;
+    }
+
+    .footer-icon:hover {
+        cursor: pointer !important;
+    }
+
+    .footer-box {
+        padding-bottom: 0px;
+        display: flex;
+        height: 220px;
+    }
+
+    .footer-text-container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .footer-text-box {
+        width: 27%;
+        display: block;
+        padding-left: 35%;
+        padding-right: 10%;
+    }
+
+    .footer-icon-box {
+        font-size: 60px;
+        margin-top: 80px;
+        width: 45%;
+    }
+
+
+    .footer-copyright-banner-container {
+        background-color: grey;
+        width: 100%;
+        height: auto;
+    }
+
+    .copyright-text {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        text-align: center;
+        padding: 8px;
+    }
+
+
+    // CONTACT PAGE
+    .grey-hero-section {
+        height: 330px;
+        margin-top: -130px;
+    }
+
+    .contact-title {
+        width: 48%;
+        font-size: 40px;
+        padding-bottom: 30px;
+        padding-top: 200px;
+    }
+
+    .contact-box-container .grey-box-icon {
+        font-size: 75px;
+        padding-top: 25px;
+    }
+
+    .contact-box .choose-grey-box-text {
+        width: 92% !important;
+        font-size: 22px;
+        padding-top: 60px;
+    }
+
+    .contact-box-container .contact-box {
+        height: 275px;
+    }
+
+    #form-container {
+        padding-left: 24px;
+        margin-left: 80px;
+        padding-top: 60px;
+    }
+
+    #form-container label {
+        font-size: 22px;
+    }
+
+    #form-container input {
+        height: 30px;
+        margin-bottom: 20px;
+        width: 95%;
+    }
+
+    .form-submit-button {
+        font-size: 22px;
+    }
+
+    .form-map-container {
+        width: 115%;
+        margin-left: auto;
+        margin-right: 80px;
+    }
+
+    .mapboxgl-canvas {
+        position: absolute;
+        margin-left: 70px;
+    }
+
+    // ABOUT US PAGE
+    .about-title {
+        width: 45%;
+        font-size: 40px;
+        padding-bottom: 30px;
+        padding-top: 200px;
+    }
+
+    .about-body-container {
+        padding: 50px;
+        font-size: 25px;
+    }
+
+    .about-image-box {
+        height: 240px;
+        width: 30%;
+    }
+
+    .master-logo {
+        padding-top: 70px;
+    }
+
+    .thompson-about-logo {
+        padding-top: 50px;
+    }
+
+    .quality-title {
+        width: 36%;
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+
+    .quality-text {
+        font-size: 28px;
+        padding-top: 35px;
+    }
+
+    .checkbox-text-container {
+        width: 93%;
+    }
+
+    .checkbox-text1,
+    .checkbox-text2,
+    .checkbox-text3,
+    .checkbox-text4 {
+        width: 25%;
+        font-size: 28px;
+        text-align: left;
+        display: flex;
+
+    }
+
+    .tick-box {
+        width: 10%;
+        height: 100px;
+    }
+
+    .tick {
+        font-size: 25px;
+    }
+
+    .tick-text {
+        width: 90%;
+        height: 100px;
+    }
+
+    // FAQ PAGE
+    .faq-title {
+        width: 48%;
+        font-size: 40px;
+        padding-bottom: 30px;
+        padding-top: 200px;
+    }
+
+    .faq-box {
+        width: 85%;
+        margin-top: 45px;
+    }
+
+    .faq-container {
+        padding-top: 25px;
+        padding-bottom: 55px;
+    }
+
+    .faq-title-content {
+        font-size: 30px;
+        padding: 35px;
+        padding-bottom: 0px;
+    }
+
+    .faq-content {
+        font-size: 27px;
+        padding: 35px;
+    }
+
+    // SHOP PAGE
+    .shop-title {
+        width: 29%;
+        font-size: 40px;
+        padding-bottom: 30px;
+        padding-top: 200px;
+    }
+
+    .shop-text-and-price-box {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .shop-description-text {
+        font-size: 25px;
+    }
+
+    .shop-item-title {
+        width: 38%;
+        font-size: 40px;
+        padding-bottom: 30px;
+        padding-top: 200px;
+    }
+
+    .shop-item-description-clicked {
+        width: 93%;
+        padding-top: 130px;
+        padding-bottom: 130px;
+        font-size: 28px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #back-button-shop {
+        font-size: 50px;
+        padding-left: 35px;
+    }
+
+    .shop-item-price-clicked-text {
+        font-size: 30px;
+        padding: 33px;
+    }
+
+    // SERVICES PAGE 
+    .service-title {
+        width: 20%;
+        font-size: 40px;
+        padding-bottom: 30px;
+        padding-top: 200px;
+    }
+
+    .service-page-subheading {
+        font-size: 25px;
+        padding: 35px;
+    }
+
+    .services-page-image-container {
+        margin: 35px;
+    }
+
+    .service-page-image {
+        height: 290px;
+    }
+
+    .service-page-title {
+        font-size: 28px;
+    }
+
+    .more-button {
+        font-size: 35px;
+    }
+
+    .service-clicked-title {
+        width: 51%;
+        font-size: 40px;
+        padding-bottom: 30px;
+        padding-top: 200px;
+    }
+
+    .service-content {
+        font-size: 25px;
+        padding: 65px;
+    }
+
+    .service-content img {
+        width: 110%;
+        margin-top: 80px;
+        margin-left: -65px;
+        margin-bottom: -65px;
+    }
+
+    .back-button-service-clicked {
+        height: 70px;
+    }
+}

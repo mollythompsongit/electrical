@@ -1,0 +1,166 @@
+// SERVICES PAGE 
+.service-title {
+    color: $darkred;
+    font-family: $inter;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 22px;
+    padding-top: 120px;
+    font-size: 20px;
+    margin: auto;
+}
+
+.service-clicked-title {
+    color: $darkred;
+    font-family: $inter;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 22px;
+    padding-top: 120px;
+    font-size: 20px;
+    margin: auto;
+}
+
+.service-page-subheading {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 15px;
+}
+
+.services-page-image-container {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color: $grey;
+    margin-bottom: 30px;
+}
+
+.services-page-image-container:hover {
+    cursor: pointer;
+}
+
+.service-page-image {
+    width: 100%;
+    height: 200px;
+    padding-bottom: 22px;
+}
+
+.service-page-title {
+    font-size: 20px;
+    color: $darkred;
+    width: 100%;
+    font-family: $inter;
+    margin: auto;
+    text-align: center;
+}
+
+.service-link {
+    text-decoration: none;
+}
+
+.service-link:visited {
+    text-decoration: none;
+}
+
+.service-boxes-container {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.more-button {
+    width: 97%;
+    text-align: right;
+    color: $darkred;
+    font-family: $opensans;
+    font-size: 25px;
+}
+
+.service-content {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 15px;
+}
+
+.service-content ul {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.service-content a {
+    color: $darkred;
+    text-decoration: none;
+}
+
+.service-content img {
+    width: 110%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: -15px;
+    margin-bottom: -20px;
+}
+
+.back-button-service-clicked {
+    width: 100%;
+    height: 35px;
+    background: rgba(213, 213, 213, 0.8);
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 375px) {
+    .service-page-image {
+        height: 230px;
+    }
+
+    .service-page-title {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+
+    .service-title {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .service-page-subheading {
+        padding: 25px;
+    }
+
+    .services-page-image-container {
+        width: 80%;
+    }
+
+    .service-clicked-title {
+        width: 77%;
+        font-size: 18px;
+    }
+
+    .service-content {
+        padding: 25px;
+    }
+
+
+    .service-content img {
+        width: 115%;
+        margin-left: -25px;
+        margin-bottom: -30px;
+    }
+
+    .service-page-title {
+        font-size: 17px;
+        padding-bottom: 5px;
+    }
+
+    .back-button-service-clicked {
+        width: 100%;
+        height: 45px;
+        background: rgba(213, 213, 213, 0.8);
+        padding-top: 10px;
+    }
+}

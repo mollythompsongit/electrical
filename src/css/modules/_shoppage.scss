@@ -1,0 +1,148 @@
+// SHOP PAGE
+.shop-title {
+    color: $darkred;
+    font-family: $inter;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 22px;
+    padding-top: 120px;
+    font-size: 20px;
+    margin: auto;
+}
+
+.shop-description-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 18px;
+    text-align: center;
+}
+
+.shop-container {
+    padding-bottom: 40px;
+}
+
+.shop-item-box {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.shop-image-box {
+    width: 100%;
+    height: auto;
+    background: rgba(204, 202, 202, 0.7);
+}
+
+.shop-item-image {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.shop-item-image-clicked {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-top: 1px solid $darkred;
+}
+
+.shop-text-and-price-box {
+    background: rgba(243, 243, 243, 0.7);
+    font-family: $inter;
+    color: $darkred;
+    font-size: 15px;
+    padding: 9px;
+}
+
+// Shop item when clicked 
+
+.shop-item-title {
+    color: $darkred;
+    font-family: $inter;
+    text-align: center;
+    font-weight: bold;
+    width: 85%;
+    height: 22px;
+    padding-top: 120px;
+    font-size: 20px;
+    margin: auto;
+}
+
+.shop-item-price-clicked {
+    width: 100%;
+    margin: auto;
+    background: rgba(243, 243, 243, 0.7);
+    font-family: $inter;
+    color: $darkred;
+    text-align: right;
+    border-bottom: 1px solid $darkred;
+    display: flex;
+}
+
+#back-button-shop {
+    width: 70%;
+    border: none;
+    background-color: transparent;
+    color: $darkred;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.shop-item-price-clicked-text {
+    width: 30%;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.shop-item-description-clicked {
+    width: 91%;
+    margin: auto;
+    background: rgba(243, 243, 243, 0.7);
+    font-family: $inter;
+    color: black;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid $darkred;
+    border-bottom: 1px solid $darkred;
+}
+
+@media screen and (min-width: 425px) {
+    // SHOP PAGE
+
+    .shop-title {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .shop-description-text {
+        font-size: 18px;
+    }
+
+    .shop-item-title {
+        font-size: 18px;
+        width: 58%;
+    }
+
+    .shop-item-description-clicked {
+        width: 94%;
+        font-size: 19px;
+    }
+
+    .shop-item-price-clicked-text {
+        font-size: 19px;
+    }
+
+    #back-button-shop {
+        font-size: 30px;
+        padding-top: 5px;
+    }
+}

@@ -1,0 +1,152 @@
+// NAVBAR 
+#menu {
+    visibility: hidden;
+}
+
+#topnav {
+    width: 100%;
+    height: 60px;
+    opacity: 0.75;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: $inter;
+}
+
+#menu-container {
+    width: 30%;
+    position: relative;
+}
+
+#menu-button {
+    margin-left: 20%;
+    display: block;
+    background: transparent;
+    border: none;
+    color: $brightred;
+    font-size: 32px;
+    position: absolute;
+    top: 25%;
+}
+
+#mobilelogo {
+    width: 40%;
+    height: auto;
+}
+
+.mobilelogo-image {
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+}
+
+.search-icon-mobile {
+    visibility: visible;
+    width: 30%;
+    text-align: center;
+    position: relative;
+}
+
+.search-mobile {
+    padding-left: 45%;
+    padding-top: 17px;
+    font-size: 22px;
+    color: $brightred;
+}
+
+.nav-drop-down {
+    background: white;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    margin-top: 3px;
+}
+
+#search-form {
+    display: inline-block;
+    width: 100%;
+    padding-top: 3px;
+}
+
+#search-bar {
+    width: 60%;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2px;
+    border: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+#mobile-menu {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(141, 0, 5, 0.9);
+    color: white;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    font-size: -15px;
+    padding-top: 5px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    z-index: 99;
+}
+
+#mobile-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+#mobile-menu li {
+    padding-top: 60px;
+}
+
+#close-nav-menu {
+    position: absolute;
+    margin-top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 35px;
+    color: white;
+}
+
+@media screen and (min-width: 375px) {
+    #topnav {
+        height: 70px;
+    }
+
+    .nav-drop-down {
+        height: 65px !important;
+    }
+
+    #search-form {
+        padding-top: 10px;
+    }
+
+    .search-mobile {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    #topnav {
+        height: 75px;
+    }
+
+    .nav-drop-down {
+        height: 65px !important;
+    }
+
+    #search-form {
+        padding-top: 10px;
+    }
+
+    .search-mobile {
+        padding-top: 23px;
+    }
+}

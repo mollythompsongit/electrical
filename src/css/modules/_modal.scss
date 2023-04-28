@@ -1,0 +1,58 @@
+#modal {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(141, 0, 5, 0.9);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    font-family: $inter;
+}
+
+.modal-open-button {
+    background-color: rgba(243, 243, 243, 0.7);
+    font-family: $inter;
+    color: grey;
+    text-align: right;
+    font-size: 12px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.modal-open-button:hover {
+    cursor: pointer;
+    color: $darkred;
+}
+
+.close-modal-button:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+.close-modal-button {
+    position: absolute;
+    margin-top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 35px;
+    color: white;
+}
+
+.modal-content {
+    width: 78%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: $opensans;
+    text-align: left;
+    padding: 35px;
+}
+
+.modal-title {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 70px;
+    text-align: center;
+}
